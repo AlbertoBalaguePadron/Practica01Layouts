@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import Head from "./components/head";
+import Body from "./components/body";
 
 export default function App() {
   return (
@@ -9,7 +10,7 @@ export default function App() {
         <Head />
       </View>
       <View style={styles.cuerpo}>
-        
+        <Body />
       </View>
     </View>
   );
@@ -30,17 +31,15 @@ const styles = StyleSheet.create({
     color: "#fff",
     backgroundColor: "grey",
     heidth: "100%",
-    border:  "1px solid",
-    borderColor: "red",  
-    width: "100%" , 
-
+    border: "1px solid",
+    borderColor: "red",
+    width: "100%",
   },
   cuerpo: {
     alignItems: "center",
     flex: 3,
     justifyContent: "center",
     heidth: "100%",
-    width: "100%" , 
-
+    width: "100%",
   },
 });
