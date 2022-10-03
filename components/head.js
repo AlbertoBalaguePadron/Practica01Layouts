@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   },
   texto: {
     alignSelf: "center",
-    fontSize: 18,
+    fontSize: 19,
     color: "#fff",
   },
 });
