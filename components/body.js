@@ -6,8 +6,10 @@ const body = () => {
     <View style={styles.container}>
       <Text style={styles.texto}>
         Mi nombre es Alberto Balagué Padrón, actualmente soy un alumno de los
-        Salesianos La Cuesta. Me gusta saber de todo soy muy curioso aparte
-        tambien me gusta jugar.
+        Salesianos La Cuesta. {"\n"}
+        Me gusta invertir tiempo en cosas que me gustas como escuchar música,
+        leer libros y hacer deporte. También paso mi tiempo en familia y con mis
+        gatos.
       </Text>
       <SvgQRCode
         value="https://github.com/AlbertoBalaguePadron/Practica01Layouts/tree/main"
@@ -22,7 +24,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: "76%",
     flexDirection: "column",
-    justifyContent: "space-between",
+    justifyContent: "space-evenly",
   },
 
   texto: {
